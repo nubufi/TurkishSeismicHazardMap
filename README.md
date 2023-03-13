@@ -23,7 +23,7 @@ This will start the container and map port 8000 on your local machine to port 80
 
 To get the seismic hazard values at a specific latitude and longitude coordinate, send a GET request to the /seismic_hazard endpoint with the DYHD number ,latitude and longitude parameters in the query string. The API will return a JSON object with the corresponding PGA, PGV, SS, and S1 values. An example request is shown below:
 
-`http://localhost:8000/seismic_hazard?dyhd=1&latitude=39.9&longitude=32.8`
+`http://localhost:8000/seismic_hazard?dyhd_no=1&latitude=39.9&longitude=32.8`
 
 ## Acknowledgements
 
